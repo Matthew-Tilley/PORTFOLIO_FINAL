@@ -12,6 +12,14 @@
     position:                           relative;
 }
 
+.LOCTEST
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
+
 
 h1
 {
