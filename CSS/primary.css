@@ -19,6 +19,15 @@ body
 }
 
 
+header
+{
+    height:                         12vh;
+    width:                          100vw;
+}
+
+
+
+
 .WRAPPER
 {
     height:                         100vh;
@@ -47,6 +56,15 @@ body
     height:                         auto;
     margin:                         10px;
       
+}
+
+
+
+
+.LOG-T-01
+{
+    height:                         10vh;
+    width:                          auto;
 }
 
 
