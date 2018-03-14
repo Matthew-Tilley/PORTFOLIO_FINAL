@@ -1,3 +1,5 @@
+/* **********  BASIC CSS RESET  ********** */
+
 *
 {
     margin:                         0;
@@ -6,6 +8,8 @@
 }
 
 
+
+/* **********  NATIVE GENERIC / CONTEXTUAL ELEMENTS  ********** */
 
 body
 {
@@ -31,27 +35,30 @@ header
 }
 
 
-
+/* **********  PAGE WRAPPER ELEMENT  ********** */
 
 .WRAPPER
 {
     height:                         100vh;
     width:                          100vw;
-    
-    
 }
 
 
+
+/* **********  LAYOUT CONTAINERS (LOC-T-xx)  ********** */
 
 .LOC-T-01
 {
     width:                          90%;
     margin:                         0 auto;
+    
     font-size:                      0;
     text-align:                     center;
 }
 
 
+
+/* **********  CLICK-AREAS (CA-T-xx)  ********** */
 
 .CA-T-01
 {
@@ -59,36 +66,40 @@ header
     
     width:                          250px;
     height:                         auto;
-    margin:                         10px;
-      
+    margin:                         10px;   
 }
 
 
+
+/* **********  IMAGE ELEMENTS - LOGOS (LOG-T-xx)  ********** */
 
 .LOG-T-01
 {
     height:                         15vh;
     width:                          auto;
     margin:                         2% 0 0 0;
+    
     text-align:                     center;
 }
 
 
 
+/* **********  HEADING ELEMENTS (Hx-T-xx)  ********** */
+
 .H1-T-01
 {
-    font-size:                         1.5vh;
-    margin:                            1vh 0 1vh 0;
+    font-size:                      1.5vh;
+    margin:                         1vh 0 1vh 0;
 }
 
 
 
 .H5-T-01
 {
-    margin:                             5vh 0 0 0;
-    text-align:                         center;
+    margin:                         5vh 0 0 0;
+    text-align:                     center;
     
-    font-size:                          .75rem;
+    font-size:                      .75rem;
 }
 
 
