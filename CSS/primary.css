@@ -43,7 +43,6 @@ header
 
 
 
-
 .LOC-T-01
 {
     width:                          90%;
@@ -51,6 +50,7 @@ header
     font-size:                      0;
     text-align:                     center;
 }
+
 
 
 .CA-T-01
@@ -65,7 +65,6 @@ header
 
 
 
-
 .LOG-T-01
 {
     height:                         15vh;
@@ -75,6 +74,7 @@ header
 }
 
 
+
 .H1-T-01
 {
     font-size:                         1.5vh;
@@ -82,10 +82,13 @@ header
 }
 
 
+
 .H5-T-01
 {
     margin:                             5vh 0 0 0;
     text-align:                         center;
+    
+    font-size:                          .75rem;
 }
 
 
