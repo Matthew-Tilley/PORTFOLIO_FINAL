@@ -1,12 +1,35 @@
-body
+
+
+
+.WRAPPER
 {
-    background: url("../ASSETS/IMAGES/BACKGROUNDS/TEXTURES/pexels-photo-235994.jpeg");
+    height:                         100%;
+    width:                          100%;
+    
+    
+    
 }
 
-img
+
+
+
+.LOC-T-01
 {
-    width: 175px;
-    height: auto;
+    width:                          90%;
+    margin:                         0 auto;
+    font-size:                      0;
+    text-align:                     center;
+}
+
+
+.CA-T-01
+{
+    display:                        inline-block;
+    
+    width:                          250px;
+    height:                         auto;
+    margin:                         10px;
+      
 }
 
 
