@@ -6,13 +6,15 @@
 }
 
 
-.WRAPPER
+body
 {
-    height:                         100%;
-    width:                          100%;
+    height:                         100vh;
+    width:                          100vw;
     
-    
-    
+    background:                     url("../ASSETS/IMAGES/BACKGROUNDS/TEXTURES/pexels-photo-132195.jpeg");
+    background-repeat:              no-repeat;
+    background-size:                cover;
+    background-attachment:          fixed;
 }
 
 
