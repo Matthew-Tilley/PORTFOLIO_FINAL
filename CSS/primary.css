@@ -21,8 +21,12 @@ body
 
 header
 {
+    display:                        inline-block;
+    
     width:                          100vw;
     margin:                         0 0 2vh 0;
+    
+    text-align:                     center;
 }
 
 
@@ -63,9 +67,9 @@ header
 
 .LOG-T-01
 {
-   
     height:                         15vh;
     width:                          auto;
+    text-align:                     center;
 }
 
 
