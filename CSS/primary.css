@@ -63,9 +63,17 @@ header
 
 .LOG-T-01
 {
+    display:                        inline-block;
     height:                         10vh;
     width:                          auto;
     margin:                         3% 10% 0 10vw;
+}
+
+
+.H1-T-01
+{
+    display:                        inline-block;
+    margin                          auto;
 }
 
 
