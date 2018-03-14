@@ -76,6 +76,7 @@ header
 .LOG-T-01
 {
     height:                         15vh;
+    max-height:                     150px;
     width:                          auto;
     margin:                         2% 0 0 0;
     
