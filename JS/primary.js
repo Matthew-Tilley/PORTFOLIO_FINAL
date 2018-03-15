@@ -1,7 +1,9 @@
 $(document).ready(function()
 {
-    $(".CA-T-01").hover(function()
+    $("#BTN01").hover(function()
     {
        $(this).hide();
+        
     });
+    
 });
