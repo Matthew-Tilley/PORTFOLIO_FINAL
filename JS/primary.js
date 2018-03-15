@@ -1,9 +1,11 @@
 $(document).ready(function()
 {
-    $("#BTN01").hover(function()
+    $(".CA-T-01").hover(function()
     {
-       $(this).hide();
-        
+        console.log(document.getElementById(this.toString()));
     });
+    
+    
+    
     
 });
