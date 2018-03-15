@@ -14,8 +14,7 @@ $(document).ready(function()
         $(this).hide();
         $("#BTN01").show();
     });
-    
-    
+        
     
     
     /*CONTROLS FOR CLICK AREA #2*/
@@ -32,6 +31,26 @@ $(document).ready(function()
         $("#BTN02").show();
     });
     
+    
+    
+    /*CONTROLS FOR CLICK AREA #3*/
+    
+    $("#BTN03").mouseenter(function()
+    {
+        $(this).hide();
+        $("#BTN03-HOV").show();
+    });
+    
+    
+    $("#BTN03-HOV").mouseleave(function()
+    {
+        $(this).hide();
+        $("#BTN03").show();
+    });
+    
+    
+    
+   
     
     
     
