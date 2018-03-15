@@ -69,6 +69,13 @@ header
     margin:                         10px;   
 }
 
+
+#BTN01-HOV
+{
+    display:                        none;
+}
+
+
 #BTN02-HOV
 {
     display:                        none;
