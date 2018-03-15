@@ -1,9 +1,17 @@
 $(document).ready(function()
 {
-    $(".CA-T-01").hover(function()
+    $("#BTN02").mouseenter(function()
     {
-        console.log(document.getElementById(this.toString()));
+        $(this).hide();
+        $("#BTN02-HOV").show();
     });
+    
+    $("#BTN02-HOV").mouseleave(function()
+    {
+        $(this).hide();
+        $("#BTN02").show();
+    });
+    
     
     
     
