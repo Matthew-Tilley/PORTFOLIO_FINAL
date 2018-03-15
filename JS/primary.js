@@ -1,6 +1,7 @@
 $(document).ready(function()
 {
     
+    /*CONTROLS FOR CLICK AREA #1*/
     
     $("#BTN01").mouseenter(function()
     {
@@ -17,8 +18,9 @@ $(document).ready(function()
     
     
     
+    /*CONTROLS FOR CLICK AREA #2*/
     
-    $("#BTN02").mouseenter(function()       /*CONTROLS FOR CLICK AREA #2*/
+    $("#BTN02").mouseenter(function()       
     {
         $(this).hide();
         $("#BTN02-HOV").show();
