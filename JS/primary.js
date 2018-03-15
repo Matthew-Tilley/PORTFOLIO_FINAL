@@ -10,7 +10,7 @@ $(document).ready(function()
         $("#BTN01-HOV") .show()
                         .click(function()
                         {
-                            window.open("https://www.google.com");
+                            window.open("https://www.google.com", "_self");
                         });
         
     });
