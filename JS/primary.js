@@ -50,7 +50,20 @@ $(document).ready(function()
     
     
     
-   
+    /*CONTROLS FOR CLICK AREA #4*/
+    
+    $("#BTN04").mouseenter(function()
+    {
+        $(this).hide();
+        $("#BTN04-HOV").show();
+    });
+    
+    
+    $("#BTN04-HOV").mouseleave(function()
+    {
+        $(this).hide();
+        $("#BTN04").show();
+    });
     
     
     
