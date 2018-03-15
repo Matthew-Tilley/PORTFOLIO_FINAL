@@ -50,7 +50,11 @@ $(document).ready(function()
     $("#BTN03").mouseenter(function()
     {
         $(this).hide();
-        $("#BTN03-HOV").show();
+        $("#BTN03-HOV") .show()
+                        .click(function()
+                        {
+                            window.open("https://www.google.com", "_self");
+                        });
     });
     
     
