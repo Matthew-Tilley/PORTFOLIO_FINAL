@@ -71,7 +71,11 @@ $(document).ready(function()
     $("#BTN04").mouseenter(function()
     {
         $(this).hide();
-        $("#BTN04-HOV").show();
+        $("#BTN04-HOV") .show()
+                        .click(function()
+                        {
+                            window.open("https://www.google.com", "_self");
+                        });
     });
     
     
