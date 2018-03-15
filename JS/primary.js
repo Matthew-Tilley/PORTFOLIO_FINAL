@@ -1,12 +1,18 @@
 $(document).ready(function()
 {
     
+    
     /*CONTROLS FOR CLICK AREA #1*/
     
     $("#BTN01").mouseenter(function()
     {
         $(this).hide();
-        $("#BTN01-HOV").show();
+        $("#BTN01-HOV") .show()
+                        .click(function()
+                        {
+                            window.open("https://www.google.com");
+                        });
+        
     });
     
     $("#BTN01-HOV").mouseleave(function()
@@ -23,6 +29,8 @@ $(document).ready(function()
     {
         $(this).hide();
         $("#BTN02-HOV").show();
+        
+      
     });
     
     $("#BTN02-HOV").mouseleave(function()
@@ -64,8 +72,6 @@ $(document).ready(function()
         $(this).hide();
         $("#BTN04").show();
     });
-    
-    
     
     
 });
