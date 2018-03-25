@@ -16,11 +16,9 @@ body
     height:                         100vh;
     width:                          100vw;
     
-    background:                     url("../ASSETS/IMAGES/BACKGROUNDS/TEXTURES/BG-LGHTWD-1600-1065.jpg");
-    background-repeat:              no-repeat;
-    background-size:                cover;
-    background-attachment:          fixed;
 }
+
+
 
 
 header
@@ -35,13 +33,41 @@ header
 }
 
 
-/* **********  PAGE WRAPPER ELEMENT  ********** */
 
-.WRAPPER
+/* **********  CUSTOM BODIES (BOD-T-xx)  ********** */
+
+.BOD-T-02
 {
     height:                         100vh;
     width:                          100vw;
+    
+    background:                     url("../ASSETS/IMAGES/BACKGROUNDS/TEXTURES/BG-LGHTWD-1600-1065.jpg");
+    
+    /*background:                     rgba(0, 0, 0, .7);   */
+    background-repeat:              no-repeat;
+    background-size:                cover;
+    background-attachment:          fixed;
 }
+
+
+
+
+
+
+/* **********  PAGE WRAPPERS BY CLASS (WR-T-xx) ********** */
+
+.WR-T-01
+{
+    height:                         100vh;
+    width:                          100vw;
+    
+    background:                     url("../ASSETS/IMAGES/BACKGROUNDS/TEXTURES/BG-LGHTWD-1600-1065.jpg");
+    background-repeat:              no-repeat;
+    background-size:                cover;
+    background-attachment:          fixed;
+}
+
+
 
 
 
@@ -55,6 +81,21 @@ header
     font-size:                      0;
     text-align:                     center;
 }
+
+
+.LOC-T-02
+{    
+    width:                          80%;
+    margin:                         0 auto 7.5% auto;
+    padding:                        5% auto 5% auto;;
+    
+    text-align:                     center;
+    font-size:                      0;
+    
+    background:                     rgba(48, 48, 48, .9);
+    
+}
+
 
 
 
@@ -109,12 +150,43 @@ header
 
 
 
+
+/* **********  IMAGE ELEMENTS - ICONS BY CLASS (ICN-T-xx)  ********** */
+
+
+.ICN-T-01
+{
+    display:                        inline-block;
+    
+    height:                         80px;
+    width:                          80px;
+    margin:                         4% 2% 4% 2%;
+    
+    
+}
+
+
+
 /* **********  HEADING ELEMENTS (Hx-T-xx)  ********** */
 
 .H1-T-01
 {
     font-size:                      1.5vh;
     margin:                         1vh 0 1vh 0;
+}
+
+
+.H2-T-01
+{
+    margin-bottom:                  2%;
+    
+    text-align:                     center;
+    font-size:                      2rem;
+    text-align:     center;
+    font-family: 'Comfortaa', cursive;
+    color:  black;
+   
+    
 }
 
 
@@ -128,3 +200,22 @@ header
 }
 
 
+/* **********  PARAGRAPH TEXT (PA-T-xx)  ********** */
+
+.PA-T-02
+{
+    color:                      black;
+}
+
+
+
+
+/* **********  VIDEO ELEMENTS (VID-T-xx)  ********** */
+
+.VID-T-02
+{
+    min-width:                      320px;
+    max-width:                      500px;
+    width:                          80%;
+    height:                         auto;
+}
