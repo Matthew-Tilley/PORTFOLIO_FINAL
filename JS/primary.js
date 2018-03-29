@@ -86,4 +86,57 @@ $(document).ready(function()
     });
     
     
+    
+    
+    $(".ICN-T-01").on("click", function()
+    {
+       
+        
+        $("#MOD-01").hide();
+        
+        $("#MOD-02").show();
+        
+        var a = $(this).attr("id") + "-A";
+        
+        var vp = $(this).attr("id");
+        
+        
+        
+        console.log(vp);
+        
+        console.log(a);
+        
+        
+        
+        
+        var b = document.getElementById(a);
+        
+        $(b).fadeIn(function(vp)
+        {
+                      
+            function autoClose(vp)
+            {
+                $(b).fadeOut(500);
+                $("#MOD-02").fadeOut(700);
+                $("#MOD-01").fadeIn(700);
+                
+               
+            }
+            
+            setTimeout(autoClose, 1400);
+            
+            
+        });
+        
+        
+    });
+    
+    
+    
+    
+    
+    
+    
+    
+    
 });

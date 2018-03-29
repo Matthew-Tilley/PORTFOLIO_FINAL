@@ -38,6 +38,7 @@ header
 
 .BOD-T-02
 {
+    
     height:                         100vh;
     width:                          100vw;
     
@@ -48,6 +49,20 @@ header
     background-size:                cover;
     background-attachment:          fixed;
 }
+
+
+#MOD-02
+{
+    display:                        none;
+    height:                         100vh;
+    width:                          100vw;
+
+    
+    background-color:               rgba(36, 36, 36, 1);
+    
+}
+
+
 
 
 
@@ -86,14 +101,22 @@ header
 .LOC-T-02
 {    
     width:                          80%;
-    margin:                         0 auto 7.5% auto;
+    margin:                         0 auto 5% auto;
     padding:                        5% auto 5% auto;;
     
     text-align:                     center;
     font-size:                      0;
     
-    background:                     rgba(48, 48, 48, .9);
-    
+    background:                     rgba(48, 48, 48, .9);   
+}
+
+
+
+.LOC-T-03
+{
+    padding:                        1% 20% 5% 20%;
+    text-align:                     center;
+                        
 }
 
 
@@ -161,8 +184,19 @@ header
     height:                         80px;
     width:                          80px;
     margin:                         4% 2% 4% 2%;
+}
+
+.ICN-T-02
+{
+    display:                        none;
+    height:                         200px;
+    width:                          200px;
+    position:                       fixed;
+    top:                            50%;
+    left:                           50%;
     
-    
+    margin-top:                     -160px;
+    margin-left:                    -107px;
 }
 
 
@@ -199,11 +233,35 @@ header
     font-size:                      .75rem;
 }
 
+.H5-T-02
+{
+    margin-top:                     3vh;
+    
+    text-align:                     center;
+    
+    font-family:                    'PT Sans Narrow', sans-serif;
+    font-size:                      1.75rem;
+    color:                          white;
+}
+
+.H6-T-01
+{
+    margin-top:                     1vh;
+    
+    text-align:                     center;
+    
+    font-family:                    'PT Sans Narrow', sans-serif;
+    font-size:                      1.2rem;
+    color:                          white;
+}
+
 
 /* **********  PARAGRAPH TEXT (PA-T-xx)  ********** */
 
 .PA-T-02
 {
+    font-family:                'PT Sans Narrow', sans-serif;
+    font-size:                  1.25rem;
     color:                      black;
 }
 
@@ -219,3 +277,4 @@ header
     width:                          80%;
     height:                         auto;
 }
+
