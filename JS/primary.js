@@ -105,21 +105,29 @@ $(document).ready(function()
         
         var b = document.getElementById(a);
         
-        $(b).fadeIn(function(vp)
+        $(b).fadeIn(function()
         {
                       
-            function autoClose(vp)
+            function autoClose()
             {
                 $(b).fadeOut(500);
                 $("#MOD-02").fadeOut(700);
                 $("#MOD-01").fadeIn(700);
                 
                 
-                $("body, html").animate({
+                
+                
+                
+                
+                
+                
+                
+                
+                /*$("body, html").animate({
                     
                     "scrollTop": $("#SCR-01").offset().top
                 }, 2500);
-                
+                */
                
             }
             
