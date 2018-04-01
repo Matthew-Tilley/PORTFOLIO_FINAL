@@ -114,6 +114,11 @@ $(document).ready(function()
                 $("#MOD-02").fadeOut(700);
                 $("#MOD-01").fadeIn(700);
                 
+        
+        var pos = document.getElementById( $(this).parent().attr("id") );
+                
+                console.log(pos);
+                
                 
                 
                 
