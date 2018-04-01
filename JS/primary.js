@@ -97,13 +97,7 @@ $(document).ready(function()
         $("#MOD-02").show();
         
         var a = $(this).attr("id") + "-A";
-        
-        var vp = $(this).attr("id");
-        
-        
-        
-        console.log(vp);
-        
+                     
         console.log(a);
         
         
@@ -120,6 +114,12 @@ $(document).ready(function()
                 $("#MOD-02").fadeOut(700);
                 $("#MOD-01").fadeIn(700);
                 
+                
+                $("body, html").animate({
+                    
+                    "scrollTop": $("#SCR-01").offset().top
+                }, 2500);
+                
                
             }
             
@@ -127,6 +127,11 @@ $(document).ready(function()
             
             
         });
+        
+        
+        
+        
+        
         
         
     });
