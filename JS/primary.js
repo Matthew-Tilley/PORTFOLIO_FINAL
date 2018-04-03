@@ -124,11 +124,17 @@ $(document).ready(function()
             setTimeout(autoClose, 1400);
             
             
+            var scrollTo = $(this).attr("data-scrollTo");
+            
             $("body, html").animate({
-                     
-                    "scrollTop": $("#SCR-POS-05").offset().top
-                      
-                }, 2500);
+                
+                
+                "scrollTop": $("#"+scrollTo).offset().top
+                
+            }, 4000);
+            
+            
+            
             
             
         });
