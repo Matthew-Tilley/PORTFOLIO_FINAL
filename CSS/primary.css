@@ -101,9 +101,9 @@ header
 .LOC-T-02
 {    
     width:                          80%;
-    margin:                         0 auto 5% auto;
-    padding:                        5% auto 5% auto;;
-    
+    margin:                         0 auto 10% auto;
+    padding:                        10% 0 10% 0;
+        
     text-align:                     center;
     font-size:                      0;
     
@@ -114,8 +114,8 @@ header
 
 .LOC-T-03
 {
-    padding:                        1% 20% 5% 20%;
-    text-align:                     center;
+    padding:                        1% 10% 7% 10%;
+    text-align:                     justify;
                         
 }
 
@@ -215,10 +215,10 @@ header
     margin-bottom:                  2%;
     
     text-align:                     center;
-    font-size:                      2rem;
-    text-align:     center;
-    font-family: 'Comfortaa', cursive;
-    color:  black;
+    font-size:                      1.4rem;
+    text-align:                     center;
+    font-family:                    'Comfortaa', cursive;
+    color:                          black;
    
     
 }
@@ -260,9 +260,9 @@ header
 
 .PA-T-02
 {
-    font-family:                'PT Sans Narrow', sans-serif;
-    font-size:                  1.25rem;
-    color:                      black;
+    font-family:                    'PT Sans Narrow', sans-serif;
+    font-size:                      1rem;
+    color:                          black;
 }
 
 
@@ -272,9 +272,67 @@ header
 
 .VID-T-02
 {
-    min-width:                      320px;
-    max-width:                      500px;
-    width:                          80%;
-    height:                         auto;
+    min-width:                  320px;
+    max-width:                  500px;
+    width:                      80%;
+    height:                     auto;
 }
 
+
+
+@media (min-width: 500px)
+{
+    .H2-T-01
+    {
+        font-size:                      1.75rem;
+    }
+    
+    .PA-T-02
+    {
+        font-size:                      1rem;
+    }
+}
+
+
+@media (min-width: 700px)
+{
+    
+    .H2-T-01
+    {
+        font-size:                      2.25rem;
+    }
+    
+    
+    .PA-T-02
+    {
+        font-size:                      1.25rem;
+    }
+    
+    
+    .LOC-T-02
+    {
+        padding:                        7%;
+    }
+    
+    
+}
+
+
+@media (min-width: 1000px)
+{
+    .H2-T-01
+    {
+        font-size:                      2.5rem;
+    }
+    
+    .PA-T-02
+    {
+        font-size:                      1.5rem;
+    }
+    
+    .LOC-T-02
+    {
+        padding:                        2.5%;
+    }
+    
+}
