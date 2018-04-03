@@ -124,17 +124,6 @@ $(document).ready(function()
             setTimeout(autoClose, 1400);
             
             
-            var scrollTo = $(this).attr("data-scrollTo");
-            
-            $("body, html").animate({
-                
-                
-                "scrollTop": $("#"+scrollTo).offset().top
-                
-            }, 4000);
-            
-            
-            
             
             
         });
