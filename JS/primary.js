@@ -88,10 +88,18 @@ $(document).ready(function()
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     $(".ICN-T-01").on("click", function()
     {
        
-        
+                
         $("#MOD-01").hide();
         
         $("#MOD-02").show();
@@ -99,9 +107,7 @@ $(document).ready(function()
         var a = $(this).attr("id") + "-A";
                      
         console.log(a);
-        
-        
-        
+   
         
         var b = document.getElementById(a);
         
@@ -113,30 +119,16 @@ $(document).ready(function()
                 $(b).fadeOut(500);
                 $("#MOD-02").fadeOut(700);
                 $("#MOD-01").fadeIn(700);
-                
-        
-        var pos = document.getElementById( $(this).parent().attr("id") );
-                
-                console.log(pos);
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                /*$("body, html").animate({
-                    
-                    "scrollTop": $("#SCR-01").offset().top
-                }, 2500);
-                */
-               
             }
             
             setTimeout(autoClose, 1400);
+            
+            
+            $("body, html").animate({
+                     
+                    "scrollTop": $("#SCR-POS-05").offset().top
+                      
+                }, 2500);
             
             
         });
