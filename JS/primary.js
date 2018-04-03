@@ -88,13 +88,7 @@ $(document).ready(function()
     
     
     
-    
-    
-    
-    
-    
-    
-    
+    /*SHOWS & HIDES LARGE VERSION / DESCRIPTION OF ICONS FOR THE VARIOUS PROGRAMS*/
     
     $(".ICN-T-01").on("click", function()
     {
@@ -122,26 +116,9 @@ $(document).ready(function()
             }
             
             setTimeout(autoClose, 1400);
-            
-            
-            
-            
+             
         });
-        
-        
-        
-        
-        
-        
-        
+                
     });
-    
-    
-    
-    
-    
-    
-    
-    
     
 });
