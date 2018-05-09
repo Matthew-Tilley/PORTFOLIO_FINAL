@@ -10,7 +10,7 @@ $(document).ready(function()
         $("#BTN01-HOV") .show()
                         .click(function()
                         {
-                            window.open("https://www.google.com", "_self");
+                            window.open("http://www.tilleydigital.com/HTML/journey.html", "_self");
                         });
         
     });
@@ -31,7 +31,7 @@ $(document).ready(function()
         $("#BTN02-HOV") .show()
                         .click(function()
                         {
-                            window.open("https://www.google.com", "_self");                        
+                            window.open("http://www.tilleydigital.com/HTML/skills.html", "_self");                        
                         });
         
       
@@ -53,7 +53,7 @@ $(document).ready(function()
         $("#BTN03-HOV") .show()
                         .click(function()
                         {
-                            window.open("https://www.google.com", "_self");
+                            window.open("http://www.tilleydigital.com/HTML/works.html", "_self");
                         });
     });
     
@@ -74,7 +74,7 @@ $(document).ready(function()
         $("#BTN04-HOV") .show()
                         .click(function()
                         {
-                            window.open("https://www.google.com", "_self");
+                            window.open("http://www.tilleydigital.com/HTML/tools.html", "_self");
                         });
     });
     
